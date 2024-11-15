@@ -6,14 +6,14 @@
 //
 
 import SwiftUI
-import RealityKit
-import RealityKitContent
 
 @main
 struct CodeEditorApp: App {
-    var body: some SwiftUI.Scene {
+    var body: some Scene {
         WindowGroup {
             CodeEditorView()
         }
     }
 }
+
+
